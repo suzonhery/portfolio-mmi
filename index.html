@@ -6,20 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Suzon Héry | Portfolio </title>
-  <!-- favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-  <!-- custom css link -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <!-- google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- #MAIN -->
   <main>
-    <!-- #SIDEBAR -->
+    <!--------------------------------------------------------------- Barre latérale --------------------------------------------------------------->
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
@@ -27,7 +23,7 @@
         </figure>
         <div class="info-content">
           <h1 class="name" title="Suzon Héry">Suzon Héry</h1>
-          <p class="title">Développeuse web</p>
+          <p class="title">Développeuse</p>
         </div>
         <button class="info_more-btn" data-sidebar-btn>
           <span>Montrer les informations de contact</span>
@@ -72,9 +68,8 @@
         </ul>
       </div>
     </aside>
-    <!-- #main-content -->
     <div class="main-content">
-      <!-- #NAVBAR -->
+      <!--------------------------------------------------------------- Navigation --------------------------------------------------------------->
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
@@ -91,10 +86,10 @@
           </li>
         </ul>
       </nav>
-      <!-- #ABOUT -->
+      <!--------------------------------------------------------------- Présentation --------------------------------------------------------------->
       <article class="about  active" data-page="présentation">
         <header>
-          <h2 class="h2 article-title">À propos de moi</h2>
+          <h2 class="h2 article-title">Présentation</h2>
         </header>
         <section class="about-text">
           <p>
@@ -110,7 +105,7 @@
             message and identity in the most creative way. I created web design for many famous brand companies.
           </p>
         </section>
-        <!-- service -->
+        <!-------------------------------------------------------------- Services -------------------------------------------------------------->
         <section class="service">
           <h3 class="h3 service-title">Mes services</h3>
           <ul class="service-list">
@@ -161,8 +156,9 @@
             </li>
           </ul>
         </section>
+        <!------------------------------------------------------------ Compétences ------------------------------------------------------------>
         <section class="skill">
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">Mes compétences</h3>
           <ul class="skills-list content-card">
             <li class="skills-item">
               <div class="title-wrapper">
@@ -203,11 +199,12 @@
           </ul>
         </section>
       </article>
-      <!-- #RESUME -->
+      <!-------------------------------------------------------------- Parcours -------------------------------------------------------------->
       <article class="resume" data-page="parcours">
         <header>
           <h2 class="h2 article-title">Parcours</h2>
         </header>
+        <!-------------------------------------------------------------- Formation -------------------------------------------------------------->
         <section class="timeline">
           <div class="title-wrapper">
             <div class="icon-box">
@@ -239,6 +236,7 @@
             </li>
           </ol>
         </section>
+        <!------------------------------------------------------------ Expérience ------------------------------------------------------------>
         <section class="timeline">
           <div class="title-wrapper">
             <div class="icon-box">
@@ -277,7 +275,7 @@
           </ol>
         </section>
       </article>
-      <!-- #PORTFOLIO -->
+      <!-------------------------------------------------------------- Portfolio -------------------------------------------------------------->
       <article class="portfolio" data-page="portfolio">
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -431,29 +429,22 @@
           </ul>
         </section>
       </article>
-      <!-- #CONTACT -->
+      <!--------------------------------------------------------------- Contact --------------------------------------------------------------->
       <article class="contact" data-page="contact">
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
         <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">Contactez moi !</h3>
           <form action="#" class="form" data-form>
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="text" name="fullname" class="form-input" placeholder="Prénom NOM" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Adresse e-mail" required data-form-input>
             </div>
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+              <span>Envoyer</span>
             </button>
           </form>
         </section>
