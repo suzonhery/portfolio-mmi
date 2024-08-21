@@ -1435,7 +1435,7 @@ textarea.form-input::-webkit-resizer {
   article {
     width: 520px;
     margin-inline: auto;
-    padding: 30px;
+    padding: 17px;
   }
 
   .article-title {
@@ -1471,7 +1471,6 @@ textarea.form-input::-webkit-resizer {
   /**
    * #SIDEBAR
    */
-
   .sidebar {
     max-height: 180px;
     margin-bottom: 30px;
@@ -1767,8 +1766,6 @@ textarea.form-input::-webkit-resizer {
     width: 100px;
   }
 
-
-
   /**
    * SIDEBAR
    */
@@ -1778,8 +1775,6 @@ textarea.form-input::-webkit-resizer {
     gap: 30px 15px;
   }
 
-
-
   /**
    * NAVBAR
    */
@@ -1787,25 +1782,6 @@ textarea.form-input::-webkit-resizer {
   .navbar-link {
     --fs-8: 15px;
   }
-
-
-
-  /**
-   * ABOUT
-   */
-
-  /* testimonials modal */
-
-  .testimonials-modal {
-    gap: 35px;
-    max-width: 680px;
-  }
-
-  .modal-avatar-box img {
-    width: 80px;
-  }
-
-
 
   /**
    * PORTFOLIO
@@ -1848,22 +1824,6 @@ textarea.form-input::-webkit-resizer {
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
   }
-
-
-
-  /**
-   * CONTACT
-   */
-
-  .input-wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .form-btn {
-    width: max-content;
-    margin-left: auto;
-  }
-
 }
 
 
